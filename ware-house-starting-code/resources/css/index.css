@@ -1,0 +1,154 @@
+h1 {
+font-family: "Oswald", Arial, sans-serif;
+color: #F2E6DB;
+font-size: 40px;
+font-weight: light;
+text-transform: uppercase;
+}
+
+h2{
+font-family: "Oswald", Arial, sans-serif;
+color: #F2E6DB;
+font-size: 32px;
+font-weight: light;
+}
+
+h3{
+font-family: 'Oswald', Arial, sans-serif;
+color: #d9c290;
+font-size: 20px;
+font-weight: regular;
+}
+
+h4{
+font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+.button-cart h4{
+color: #F2E6DB;
+letter-spacing: -41px;
+}
+
+.button-cart h4
+}
+
+.nav h4{
+color: #242622;
+}
+
+.nav:hover h4{
+color: #f2e6db;
+}
+
+.search-bar{
+color: #d9c290;
+font-weight: normal;
+}
+
+h4 breadcrumb {
+color: #f2e6db;
+}
+
+h4 login {
+color: #8c8c85;
+}
+
+.recently-viewed h4{
+color: #f236db;
+}
+
+.price {
+color: #f236db;
+}
+
+.footer h4{
+color: #f236db;
+}
+
+.hero {
+  width: 100%;
+  height: 21.75rem;
+  margin-top: 3rem;
+  background-image: url('../img/home/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: #d9c290;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  background-color: #bfac90;
+  border-radius: 15px;
+  padding: 3px 50px 6px 50px;
+  vertical-align: middle;
+  font-weight:300;
+}
+
+.image-container {
+  background-color: #f2e6db;
+}
+
+/*.hero h2 {
+  padding-top: 10rem;
+  color: hsla(0, 100%, 100%, 1);
+  font-family: Helvetica;
+  font-size: inherit;
+  font-weight: bold;
+  text-align: center;
+}*/
+
+.products {
+  padding-bottom: 1rem;
+}
+
+.product-list {
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.categories h3 {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1020px) {
+  .landing .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .landing .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .hero {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero h2 {
+    padding-top: 7rem;
+  }
+
+  .hero p {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .landing .product-list {
+    grid-template-columns: 1fr;
+  }
+}
